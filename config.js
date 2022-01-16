@@ -107,7 +107,7 @@ const CONFIG = {
     secondList: [
       {
         name: 'Linkedin',
-        link: 'https://linkedin.com/ethan-n-ho',
+        link: 'https://linkedin.com/in/ethan-n-ho',
       },
       {
         name: 'Drive',
