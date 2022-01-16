@@ -11,26 +11,26 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Ethan',
   imageBackground: false,
   openInNewTab: true,
-  twelveHourFormat: false,
+  twelveHourFormat: true,
 
   // Greetings
   greetingMorning: 'Good morning!',
   greetingAfternoon: 'Good afternoon,',
   greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingNight: 'Go to sleep!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
+  weatherKey: '496e03699168389264fefc3da96d3078',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '41.7909857644868',
+  defaultLongitude: '-87.5935007845269',
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
   // │  ├─┤├┬┘ ││└─┐
@@ -46,21 +46,21 @@ const CONFIG = {
     },
     {
       id: '2',
-      name: 'Mail',
-      icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      name: 'Taskwarrior',
+      icon: 'trello',
+      link: 'https://inthe.am/tasks/2627fe92-ed5b-45d5-8ecc-9561eb4f6758',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
+      name: 'YouTube',
+      icon: 'youtube',
+      link: 'https://www.youtube.com',
     },
     {
       id: '4',
-      name: 'Calendar',
+      name: 'Canvas',
       icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      link: 'https://canvas.uchicago.edu',
     },
     {
       id: '5',
@@ -70,9 +70,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      name: 'Maps',
+      icon: 'maps',
+      link: 'https://maps.google.com',
     },
   ],
 
@@ -107,20 +107,12 @@ const CONFIG = {
     secondList: [
       {
         name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        link: 'https://linkedin.com/ethan-n-ho',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
-      },
-      {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
-      },
-      {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
-      },
+        name: 'Drive',
+        link: 'https://drive.google.com',
+      }
     ],
   },
 };
