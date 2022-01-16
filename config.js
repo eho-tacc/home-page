@@ -47,7 +47,7 @@ const CONFIG = {
     {
       id: '2',
       name: 'Taskwarrior',
-      icon: 'trello',
+      icon: 'check-square',
       link: 'https://inthe.am/tasks/2627fe92-ed5b-45d5-8ecc-9561eb4f6758',
     },
     {
@@ -59,7 +59,7 @@ const CONFIG = {
     {
       id: '4',
       name: 'Canvas',
-      icon: 'calendar',
+      icon: 'briefcase',
       link: 'https://canvas.uchicago.edu',
     },
     {
@@ -71,7 +71,7 @@ const CONFIG = {
     {
       id: '6',
       name: 'Maps',
-      icon: 'maps',
+      icon: 'map-pin',
       link: 'https://maps.google.com',
     },
   ],
