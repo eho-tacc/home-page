@@ -24,7 +24,7 @@ const CONFIG = {
 
   // Weather
   weatherKey: '496e03699168389264fefc3da96d3078',
-  weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
+  weatherIcons: 'Dark', // 'Nord', 'Dark', 'White'
   weatherUnit: 'F', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -64,9 +64,9 @@ const CONFIG = {
     },
     {
       id: '5',
-      name: 'Reddit',
-      icon: 'glasses',
-      link: 'https://reddit.com',
+      name: 'home-page',
+      icon: 'home',
+      link: 'https://github.com/eho-tacc/home-page',
     },
     {
       id: '6',
@@ -81,38 +81,38 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
+  firstListIcon: 'users',
   secondListIcon: 'coffee',
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Reddit',
+        link: 'https://reddit.com',
       },
-      {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      },
-      {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      },
-      {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      },
-    ],
-    secondList: [
       {
         name: 'Linkedin',
         link: 'https://linkedin.com/in/ethan-n-ho',
       },
       {
+        name: 'WhatsApp',
+        link: 'https://web.whatsapp.com/',
+      },
+      {
+        name: 'Messages',
+        link: 'https://messages.google.com/',
+      },
+    ],
+    secondList: [
+      {
         name: 'Drive',
         link: 'https://drive.google.com',
-      }
+      },
+      {
+        name: 'Outlook',
+        link: 'https://outlook.office.com',
+      },
     ],
   },
 };
