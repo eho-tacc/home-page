@@ -113,6 +113,10 @@ const CONFIG = {
         name: 'Outlook',
         link: 'https://outlook.office.com',
       },
+      {
+        name: 'White Noise',
+        link: 'https://www.youtube.com/watch?v=nMfPqeZjc2c&t=8571s',
+      },
     ],
   },
 };
